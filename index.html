@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;1,900&family=Karla:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@700&family=Raleway:wght@700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body class="text-whiteMain">
+  
+    <header class="banner px-4 pt-6">
+        <div class="nav mb-12 flex justify-between items-center nav-box">
+          <h1 class="logo text-3xl text-whiteMain">
+            sunnyside
+          </h1>
+          <div class="hamburger">
+            <a href="#"><img src="images/icon-hamburger.svg" id="menu"  class="menu" alt="Hamburger"></a>
+          </div>
+
+          <nav class="desktop-nav">
+            <ul class="mynav nav">
+              <li class="mynav-child"><a class="mynav-child-a" href="#">About</a></li>
+              <li class="mynav-child"><a class="mynav-child-a" href="#">Services</a></li>
+              <li class="mynav-child"><a class="mynav-child-a" href="#">Projects</a></li>
+              <li class="mynav-child"><a class="mynav-child-a hover:text-whiteMain contact-desktop" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          
+        </div>
+
+        <nav class="mobile-nav">
+          <ul id="mylinks" class="mylinks p-12 links text-center bg-whiteMain">
+            <li class="mx-auto font-light mb-4 pt-10 mylinks-child hover:text-darkGrayishBlue"><a href="#" class="mylinks-child-a text-darkGrayishBlue">About</a></li>
+            <li class="mx-auto font-light mb-4 pt-2 mylinks-child hover:text-darkGrayishBlue"><a href="#" class="mylinks-child-a text-darkGrayishBlue">Services</a></li>
+            <li class="mx-auto font-light mb-6 mylinks-child hover:text-darkGrayishBlue"><a href="#" class="mylinks-child-a text-darkGrayishBlue">Projects</a></li>
+            <li class="mx-auto font-light mb-2 py-3  contact text-veryDarkDesaturatedBlue hover:text-darkGrayishBlue rounded-3xl bg-yellow px-6 mylinks-child text-darkGrayishBlue"><a href="#" class="contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        
+
+        
+
+        
+
+        <div class="hero creatives mx-auto flex flex-col"  id="creatives">
+          <h1 class="hero--main text-whiteMain">
+            We are creatives
+          </h1>
+
+          <div class="hero--arrow  mx-auto">
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow">
+          </div>
+        </div>
+    </header>
+
+    <section class="section section-1">
+      <div class="image-gallery-1 image-gallery">
+        <div class="mb-10">
+          <img src="images/mobile/image-transform.jpg" class="image-mobile " alt="Transform">
+        </div>
+
+        <div class="image-desktop image-desktop-1">
+          <img src="images/desktop/image-transform.jpg" alt="Transform">
+        </div>
+
+        <div class="text-black text-center px-6 py-8 transform-box">
+          <h1 class="mb-10 text-4xl main text-veryDarkDesaturatedBlue transform-main font-extrabold">
+            Transform your brand
+          </h1>
+
+          <p class="mb-10 text-darkGrayishBlue transform-para font-bold">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+
+          <div class="flex justify-center items-center cursor-pointer learn-box">
+            <a href="#"><img src="https://i.ibb.co/TB2DVgK/learnmore.png" class="learn-box-image "></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-gallery-2 image-gallery">
+        <div class="mb-10 image-mobile">
+          <img src="images/mobile/image-stand-out.jpg" alt="">
+        </div>
+
+        <div class="mb-10 image-desktop image-desktop-2">
+          <img src="images/desktop/image-stand-out.jpg" alt="">
+        </div>
+        
+        <div class="text-black text-center stand-box px-6 py-8">
+          <h1 class="mb-10 text-4xl main text-veryDarkDesaturatedBlue stand-main font-extrabold">
+            Stand out to the right audience
+          </h1>
+
+          <p class="mb-10 text-darkGrayishBlue font-bold stand-para">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <div>
+            <div><a href="#" class="btn-pink-box text-veryDarkDesaturatedBlue">learn more</a></div>
+
+            <!-- <div class="btn--pink "></div> -->
+
+          </div>
+            
+        </div>
+      </div>
+
+      <div class="bg-image-section">
+
+        <div class="image-gallery-3 pt-80 `bg-graphic-design` ">
+        
+        
+          <div class="text-black text-center px-6 py-8 max-w-sm flex flex-col justify-center items-center mx-auto">
+            <h1 class="mb-10 text-4xl graphic-design-main">
+              Graphic design
+            </h1>
+  
+            <p class="mb-10 graphic-design-sub">
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+  
+          </div>
+        </div>
+  
+        <div class="image-gallery-4 pt-80">
+          
+          <div class="text-black text-center px-6 py-8 max-w-sm flex flex-col justify-center items-center mx-auto">
+            <h1 class="mb-10 text-4xl photo-design-main">
+              Photography
+            </h1>
+  
+            <p class="mb-10 photo-design-sub">
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            </p>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2 text-gray-900 text-center">
+      <h1 class="testimonials font-bold text-xl pt-14 mb-11 uppercase text-gray-400 tracking-widest">
+        Client testimonials
+      </h1>
+
+      <div class="testimonial-container">
+
+        <div class="testimonial-person text-center mb-20">
+          <div class="flex justify-center items-center mb-8">
+            <img src="images/image-emily.jpg" class="rounded-full w-1/6" alt="Emily">
+          </div>
+
+          <p class="max-w-xs mx-auto mb-6 client-voice">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+
+          <div>
+            <h1 class="mb-2 client-name text-veryDarkDesaturatedBlue">Emily R.</h1>
+            <h3 class="title text-veryDarkGrayishBlue">Marketing Director</h3>
+          </div>
+
+        </div>
+
+
+        <div class="testimonial-person text-center mb-20">
+          <div class="flex justify-center items-center mb-8">
+            <img src="images/image-thomas.jpg" class="rounded-full w-1/6" alt="Emily">
+          </div>
+
+          <p class="max-w-xs mx-auto mb-6 client-voice">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+
+          <div>
+            <h1 class="mb-2 client-name text-veryDarkDesaturatedBlue">Thomas S..</h1>
+            <h3 class="title text-veryDarkGrayishBlue">Chief Operating Officer</h3>
+          </div>
+
+        </div>
+
+
+        <div class="testimonial-person text-center mb-20">
+          <div class="flex justify-center items-center mb-8">
+            <img src="images/image-jennie.jpg" class="rounded-full w-1/6" alt="Emily">
+          </div>
+
+          <p class="max-w-xs mx-auto mb-6 client-voice">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+
+          <div>
+            <h1 class="mb-2 client-name text-veryDarkDesaturatedBlue">Jennie F.</h1>
+            <h3 class="title text-veryDarkGrayishBlue">Business Owner</h3>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </section>
+
+    <section class="section-3">
+      <div class="top flex">
+        <img  class="w-1/2" src="images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
+        <img class="w-1/2" src="images/mobile/image-gallery-orange.jpg" alt="orange">
+      </div>
+
+      <div class="bottom flex">
+        <img  class="w-1/2" src="images/mobile/image-gallery-cone.jpg" alt="cones">
+        <img class="w-1/2" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes">
+      </div>
+
+      <div class="top-bottom flex">
+        <img  class="w-1/4" src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+
+        <img class="w-1/4" src="images/desktop/image-gallery-orange.jpg" alt="orange">
+
+        <img  class="w-1/4" src="images/desktop/image-gallery-cone.jpg" alt="cones">
+
+        <img class="w-1/4" src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+      </div>
+      </div>
+    </section>
+
+
+    <footer class="pt-16 pb-12">
+      <div class="text-black  flex flex-col justify-center items-center">
+        <div class="mb-8">
+          <h1 class="logo-footer">
+            sunnyside
+          </h1>
+        </div>
+
+        <nav class="mb-14">
+          <ul class="flex ">
+            <li class=" mr-10"><a href="#" class=" footer-link cursor-pointer">About</a></li>
+            <li class="mr-10"><a href="#" class="footer-link cursor-pointer">Services</a></li>
+            <li><a href="#" class="footer-link cursor-pointer">Projects</a></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul class="flex justify-center items-center">
+            <li class="mr-6"><a href="#" class="cursor-pointer"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+            <li class="mr-6"><a href="#" class="cursor-pointer hover:text-whiteMain social"><img src="images/icon-instagram.svg" alt="Instagram"></a></li>
+            <li class="mr-6"><a href="#" class="cursor-pointer social"><img src="images/icon-twitter.svg" alt="Twitter"></a></li>
+            <li class="mr-6"><a href="#" class="cursor-pointer social"><img src="images/icon-pinterest.svg" alt="Pintrest"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+<script src="app.js"></script>
+</html>

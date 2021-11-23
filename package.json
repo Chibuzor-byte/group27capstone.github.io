@@ -1,0 +1,15 @@
+{
+  "name": "capstone-project-two",
+  "version": "1.0.0",
+  "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
